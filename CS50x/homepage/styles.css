@@ -1,0 +1,23 @@
+#name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-emphasis: underline;
+    color: #427706;
+}
+
+.about {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: aquamarine;
+}
+
+li:hover {
+    color: chartreuse;
+}
+
+h4.about {
+    color: rgb(209, 74, 101);
+    font-size: 30px;
+}

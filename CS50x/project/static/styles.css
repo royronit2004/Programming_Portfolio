@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height to ensure content is centered even if it doesn't fill the whole viewport */
+    flex-direction: column; /* Stack elements vertically */
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: inline-block;
+}
+
+form {
+    text-align: center;
+    display: inline-block;
+}
+
+.question {
+    color: #333;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

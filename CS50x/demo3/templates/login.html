@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Login</title>
+</head>
+<body>
+        <div class="container">
+            <h1 class="company-heading">Stark Industries</h1>
+            <h2 class="login-heading">Login</h2>
+            <form method="POST" action="/login" autocomplete="off">
+                <label for="username">Username:</label>
+                <input type="text" name="username" autocomplete="off" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" required><br><br>
+                <input type="submit" value="Login">
+            </form>
+
+            <p>Don't have an account? <a href="/register">Register</a></p>
+        </div>
+</body>
+</html>
